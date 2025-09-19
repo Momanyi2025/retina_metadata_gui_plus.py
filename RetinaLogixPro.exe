@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --name "RetinaLogixPro" retina_metadata_gui_plus.py
