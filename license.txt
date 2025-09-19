@@ -1,0 +1,8 @@
+RetinaLogix Pro — Retinal Image Manager
+Copyright (c) 2025 Your Clinic Name
+
+Permission is granted to use this software free of charge for clinical and educational purposes.
+
+DISCLAIMER:
+This software is provided "as is" without warranty.
+Not intended to replace professional medical judgment.
