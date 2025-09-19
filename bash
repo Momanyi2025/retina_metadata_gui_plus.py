@@ -7,3 +7,4 @@ pyinstaller --onefile --windowed --name "RetinaLogixPro" retina_metadata_gui_plu
 pip install opencv-python pydicom numpy pillow pyinstaller
 python retina_metadata_gui_plus.py
 pyinstaller --onefile --windowed --name "RetinaLogixPro" retina_metadata_gui_plus.py
+RetinaLogixPro_Setup.exe /SILENT
