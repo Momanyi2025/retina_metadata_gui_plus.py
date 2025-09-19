@@ -1,0 +1,22 @@
+{
+  "device_profile": {
+    "name": "TOPCON TRC-NW6S + Nikon D70s",
+    "type": "legacy_fundus",
+    "non_mydriatic": true,
+    "default_fov_deg": 45,
+    "camera": {
+      "model": "Nikon D70s",
+      "sensor_width_mm": 23.7,
+      "sensor_height_mm": 15.6,
+      "resolution": {
+        "width_px": 3008,
+        "height_px": 2000
+      },
+      "pixel_pitch_um": 7.8
+    },
+    "calibration": {
+      "disc_diameter_mm": 1.5,
+      "notes": "Calibrate by measuring optic disc in pixels"
+    }
+  }
+}
