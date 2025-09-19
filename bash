@@ -10,3 +10,11 @@ pyinstaller --onefile --windowed --name "RetinaLogixPro" retina_metadata_gui_plu
 RetinaLogixPro_Setup.exe /SILENT
 pyupdater build --app-version=1.1.0 retina_metadata_gui_plus.py --name RetinaLogixPro
 pyupdater pkg --process --sign
+pyupdater init
+ ➤ Enter your company name: YourClinic
+ ➤ Enter your app name: RetinaLogixPro
+ ➤ Enter your app version: 1.0.0
+ ➤ Enter your update URL: https://github.com/yourusername/retinalogix/releases/download/
+ ➤ Is the url above correct?: y
+ ➤ Would you like to use a symmetric cipher?: n
+ ➤ Would you like to setup a client config?: y
