@@ -50,3 +50,4 @@ Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChang
 
 [UninstallDelete]
 Type: files; Name: "{app}\measurements.json"
+AppId={{YOUR-GUID-HERE-GENERATE-IT}
