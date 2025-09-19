@@ -1,0 +1,25 @@
+    def show_about(self):
+        messagebox.showinfo("About RetinaLogix Pro",
+            "🩺 RetinaLogix Pro v1.0.0\n"
+            "Retinal Image Manager with Calibration & DICOM Export\n"
+            "Built for TOPCON TRC-NW6S + Nikon D70s\n\n"
+            "© 2025 Your Clinic\n"
+            "Support: yourname@clinic.org"
+        )
+
+    def check_updates(self):
+        self.status_label.config(text="Checking for updates...")
+        check_for_updates_async(self.on_update_check_complete)
+
+    def on_update_check_complete(self, app_update):
+        self.status_label.config(text="Ready")
+        if app_update:
+            messagebox.showinfo("Update Available",
+                f"Version {app_update.version} is available!\n"
+                f"Published: {app_update.update_data.get('pub_date', 'Unknown')}\n\n"
+                "Click 'Help → Check for Updates' to install."
+            )
+            # Optional: Auto-prompt
+            # self.download_and_install_update(app_update)
+        else:
+            messagebox.showinfo("No Updates", "You are running the latest version.")
