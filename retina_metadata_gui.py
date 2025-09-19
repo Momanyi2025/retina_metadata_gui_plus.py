@@ -341,7 +341,7 @@ class RetinaMetadataApp:
             match = re.match(pattern, stem)
             if match:
                 data = match.groupdict()
-                if 'date' in 
+                if 'date' in data:  # ← FIXED HERE
                     try:
                         dt = datetime.strptime(data['date'], '%Y%m%d')
                         data['capture_date'] = dt.strftime('%Y-%m-%d')
