@@ -1,0 +1,11 @@
+🩺 Welcome to RetinaLogix Pro!
+
+This installer will set up RetinaLogix Pro on your computer.
+
+Features:
+- DICOM Export for PACS
+- Auto & Manual Calibration
+- Lesion Measurement Tools
+- Works with TOPCON TRC-NW6S + Nikon D70s
+
+Click Next to continue.
